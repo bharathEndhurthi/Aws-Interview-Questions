@@ -1,7 +1,19 @@
-1. Can i change type of the Ec2 instance after Launch the EC2.?
+1. Can we change type of the Ec2 instance after Launch the EC2.?
 
 Ans: Yes we can Change the type of the Ec2 instance after Launch
-		--> Stop the Ec2 instance --> Actions --> instance settings
-		--> change instance type --> select the new type of the instace whichever you want..
+How..?
+--> Stop the Ec2 instance --> Actions --> instance settings--> change instance type --> select the new type of the instace whichever you want..
 		
-	Read official Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
+Read official Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
+
+===================================================
+
+2. Can we change the EBS root volume of the Ec2 instances.?
+
+Ans: Yea we can change the EBS root volume size
+	--> we can only Increase the EBS root Volume, We can not Decrease the EBS Root Volume, also we can change the Volume Type
+
+How..?
+=====
+Go to EC2 Dashboard --> Volumes --> Actions --> Modify Volume --> Change(increase Volume size)
+
