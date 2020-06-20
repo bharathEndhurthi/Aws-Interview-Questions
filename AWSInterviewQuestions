@@ -1,1 +1,7 @@
-1. Can i change type of the Ec2 instance after Launched the EC2.?
+1. Can i change type of the Ec2 instance after Launch the EC2.?
+
+Ans: Yes we can Change the type of the Ec2 instance after Launch
+		--> Stop the Ec2 instance --> Actions --> instance settings
+		--> change instance type --> select the new type of the instace whichever you want..
+		
+	Read official Document: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
